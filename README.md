@@ -1,12 +1,49 @@
-# React + Vite
+# 🛒 DALBANO STORE - Proyecto Final de React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una tienda e-commerce desarrollada con **React + Vite**, utilizando **Firebase Firestore** como base de datos. Forma parte de la entrega final del curso de React en Coderhouse.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- **React** (Vite)
+- **React Router DOM**
+- **Firebase / Firestore**
+- **TailwindCSS**
+- **Context API**
+- **JavaScript ES6**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Funcionalidades
+
+### 🧭 Navegación SPA
+- Navegación entre secciones sin recarga de página.
+- Filtro dinámico por categorías.
+- Vista detallada de productos.
+
+### 🛍️ Carrito de compras
+- Agregado de productos al carrito.
+- Contador de unidades con validaciones de stock.
+- Cálculo de totales, subtotales y cantidad de ítems.
+- Eliminación de productos individuales o vaciar carrito.
+
+### 🔥 Firebase
+- Obtención dinámica del listado de productos desde **Firestore**.
+- Registro de órdenes al confirmar una compra.
+- Visualización del ID de orden generada.
+
+### 🎯 Renderizado condicional
+- Mensajes de carga.
+- Indicaciones de stock agotado.
+- Mensaje de "carrito vacío".
+
+---
+
+## 🛠 Instalación local
+
+1. Cloná este repositorio:
+
+git clone https://github.com/josedalban0/proyecto-react4.git
+
+---
